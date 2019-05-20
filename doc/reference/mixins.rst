@@ -268,11 +268,11 @@ Subtypes are created as data in your module; the model has the following fields:
 ``res_model`` - :class:`~odoo.fields.Char` 
     model the subtype applies to; if False, this subtype applies to all models
 ``default`` - :class:`~odoo.fields.Boolean` 
-    wether the subtype is activated by default when subscribing
+    whether the subtype is activated by default when subscribing
 ``sequence`` - :class:`~odoo.fields.Integer` 
     used to order subtypes in the notification customization popup
 ``hidden`` - :class:`~odoo.fields.Boolean` 
-    wether the subtype is hidden in the notification customization popup
+    whether the subtype is hidden in the notification customization popup
     
 
 Interfacing subtypes with field tracking allows to subscribe to different kind
